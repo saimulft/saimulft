@@ -1,0 +1,15 @@
+{
+  "name": "saimulft-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Charts and graphics for the github.com/saimulft profile README",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"scripts/test/*.test.mjs\"",
+    "generate": "node scripts/generate.mjs --out dist",
+    "build:assets": "node scripts/build-assets.mjs"
+  }
+}
