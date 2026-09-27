@@ -154,3 +154,21 @@ test('main ignores a corrupt previous snapshot', async () => {
   const stats = JSON.parse(await readFile(join(out, 'stats.json'), 'utf8'));
   assert.equal(stats.code, null);
 });
+
+test('an expired private-access token keeps the previous snapshot and still writes charts', async () => {
+  const out = await mkdtemp(join(tmpdir(), 'profile-stats-'));
+  const previousPath = join(out, 'previous.json');
+  await writeFile(previousPath, JSON.stringify(sampleStats()));
+  const healthy = fakeFetch();
+  const expired = async (url, init) =>
+    String(url).startsWith('https://api.github.com/user/repos')
+      ? new Response(JSON.stringify({ message: 'Bad credentials' }), { status: 401, headers: { 'content-type': 'application/json' } })
+      : healthy(url, init);
+  const logs = [];
+  const env = { CI: 'true', GITHUB_TOKEN: 'actions', PROFILE_STATS_TOKEN: 'expired' };
+  const code = await main(['--out', out, '--previous', previousPath], env, { fetchImpl: expired, log: (m) => logs.push(m), now: NOW });
+  assert.equal(code, 0);
+  const stats = JSON.parse(await readFile(join(out, 'stats.json'), 'utf8'));
+  assert.deepEqual(stats.code, sampleStats().code);
+  assert.ok(logs.some((m) => m.startsWith('warning: code stats unavailable')), logs.join('\n'));
+});

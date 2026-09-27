@@ -48,14 +48,23 @@ export async function buildStats({ login, calendarGh, codeGh, previous = null, n
   log(`calendar: ${calendar.lastYearTotal} contributions in the last year, ${calendar.allTimeTotal} all-time`);
   let code = previous?.code ?? null;
   if (codeGh) {
-    const raw = await collectCode(codeGh, login);
-    log(`code: ${raw.reposContributed} of ${raw.reposScanned} repositories have my commits (${raw.skipped} skipped, ${raw.empty} empty)`);
-    const fresh = summarizeCode(raw, now);
-    const floor = (previous?.code?.reposContributed ?? 0) / 2;
-    if (fresh.reposContributed < floor) {
-      log(`warning: fresh code stats cover ${fresh.reposContributed} repositories, fewer than half of the previous ${previous.code.reposContributed}; keeping the previous snapshot`);
-    } else {
-      code = fresh;
+    // An expired or under-scoped token must not stop the calendar charts from refreshing.
+    // Error messages from the client never contain request paths, so they are safe to log.
+    let raw = null;
+    try {
+      raw = await collectCode(codeGh, login);
+    } catch (error) {
+      log(`warning: code stats unavailable (${error.message}); ${code ? 'keeping the previous snapshot' : 'no previous snapshot to keep'}`);
+    }
+    if (raw) {
+      log(`code: ${raw.reposContributed} of ${raw.reposScanned} repositories have my commits (${raw.skipped} skipped, ${raw.empty} empty)`);
+      const fresh = summarizeCode(raw, now);
+      const floor = (previous?.code?.reposContributed ?? 0) / 2;
+      if (fresh.reposContributed < floor) {
+        log(`warning: fresh code stats cover ${fresh.reposContributed} repositories, fewer than half of the previous ${previous.code.reposContributed}; keeping the previous snapshot`);
+      } else {
+        code = fresh;
+      }
     }
   } else {
     log(code ? 'code: no private-access token, reusing the previous snapshot' : 'code: no private-access token and no previous snapshot');
