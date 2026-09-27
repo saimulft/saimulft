@@ -97,10 +97,26 @@ export function resolveTokens(env, ghToken = ghCliToken) {
   };
 }
 
+const isCount = (n) => Number.isFinite(n) && n >= 0;
+
+// The snapshot lives on a public branch and can be edited by hand; reuse its code block only when it is intact.
+export function validCode(code) {
+  const intact =
+    code !== null &&
+    typeof code === 'object' &&
+    isCount(code.reposContributed) &&
+    isCount(code.commits) &&
+    Array.isArray(code.languages) &&
+    code.languages.every((l) => l !== null && typeof l === 'object' && typeof l.name === 'string' && Number.isFinite(l.percent)) &&
+    Array.isArray(code.excluded) &&
+    code.excluded.every((name) => typeof name === 'string');
+  return intact ? code : null;
+}
+
 async function readPrevious(path) {
   try {
     const parsed = JSON.parse(await readFile(path, 'utf8'));
-    return parsed?.schemaVersion === 1 ? parsed : null;
+    return parsed?.schemaVersion === 1 ? { ...parsed, code: validCode(parsed.code) } : null;
   } catch {
     return null;
   }

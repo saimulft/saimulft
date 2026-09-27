@@ -172,3 +172,24 @@ test('an expired private-access token keeps the previous snapshot and still writ
   assert.deepEqual(stats.code, sampleStats().code);
   assert.ok(logs.some((m) => m.startsWith('warning: code stats unavailable')), logs.join('\n'));
 });
+
+test('a hand-edited previous snapshot with a broken code block is ignored, not trusted', async () => {
+  const breakages = [
+    (code) => delete code.excluded,
+    (code) => (code.languages[0].percent = '41.1'),
+    (code) => delete code.reposContributed,
+    (code) => Object.keys(code).forEach((key) => delete code[key]),
+  ];
+  for (const breakIt of breakages) {
+    const out = await mkdtemp(join(tmpdir(), 'profile-stats-'));
+    const previousPath = join(out, 'previous.json');
+    const previous = sampleStats();
+    breakIt(previous.code);
+    await writeFile(previousPath, JSON.stringify(previous));
+    const code = await main(['--out', out, '--previous', previousPath], { CI: 'true', GITHUB_TOKEN: 'actions' }, { fetchImpl: fakeFetch(), log: () => {}, now: NOW });
+    assert.equal(code, 0, breakIt.toString());
+    const stats = JSON.parse(await readFile(join(out, 'stats.json'), 'utf8'));
+    assert.equal(stats.code, null, breakIt.toString());
+    assert.ok(!(await readFile(join(out, 'overview-dark.svg'), 'utf8')).includes('NaN'), breakIt.toString());
+  }
+});
