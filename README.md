@@ -17,7 +17,7 @@
 
 ## About
 
-I'm the founder and CEO of [DeveloperLook](https://developerlook.com). Since 2018 my team and I have shipped 1,000+ projects for founders across the US, UK, Canada, Australia and Singapore. I also built [Staffic.io](https://staffic.io), a workforce management SaaS.
+I'm the founder and CEO of [DeveloperLook](https://developerlook.com). Since 2018 my team and I have shipped 1,250+ projects for founders across the US, UK, Canada, Australia and Singapore. I also built [Staffic.io](https://staffic.io), a workforce management SaaS.
 
 > Most businesses don't have a technology problem. They have an operations problem that the right systems can solve.
 
@@ -33,7 +33,7 @@ After rebuilding DeveloperLook's own operations with automation and internal too
 ## What I'm building
 
 <p>
-  <a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook: software development agency since 2018. Web and mobile apps, SaaS, e-commerce, AI and automation. 1,000+ projects, 5-star rated, Top Rated Plus." src="assets/card-developerlook-light.svg" width="49%"></picture></a>
+  <a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook: software development agency since 2018. Web and mobile apps, SaaS, e-commerce, AI and automation. 1,250+ projects, 5-star rated, Top Rated Plus." src="assets/card-developerlook-light.svg" width="49%"></picture></a>
   <a href="https://staffic.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-staffic-dark.svg"><img alt="Staffic.io: workforce management SaaS with time tracking, screenshots, budgets, payroll and invoicing." src="assets/card-staffic-light.svg" width="49%"></picture></a>
 </p>
 
