@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-10T06:01:31.457Z",
+  "login": "saimulft",
+  "calendar": {
+    "since": "2019-09-30",
+    "lastYearTotal": 1760,
+    "allTimeTotal": 1831,
+    "activeDaysLastYear": 205,
+    "currentStreak": {
+      "days": 6,
+      "start": "2026-10-05",
+      "end": "2026-10-10"
+    },
+    "longestStreak": {
+      "days": 19,
+      "start": "2026-09-14",
+      "end": "2026-10-02"
+    },
+    "busiestDay": {
+      "date": "2026-09-30",
+      "count": 49
+    },
+    "months": [
+      {
+        "month": "2025-11",
+        "count": 76
+      },
+      {
+        "month": "2025-12",
+        "count": 18
+      },
+      {
+        "month": "2026-01",
+        "count": 32
+      },
+      {
+        "month": "2026-02",
+        "count": 53
+      },
+      {
+        "month": "2026-03",
+        "count": 306
+      },
+      {
+        "month": "2026-04",
+        "count": 136
+      },
+      {
+        "month": "2026-05",
+        "count": 158
+      },
+      {
+        "month": "2026-06",
+        "count": 102
+      },
+      {
+        "month": "2026-07",
+        "count": 46
+      },
+      {
+        "month": "2026-08",
+        "count": 211
+      },
+      {
+        "month": "2026-09",
+        "count": 378
+      },
+      {
+        "month": "2026-10",
+        "count": 201
+      }
+    ],
+    "weekdays": [
+      {
+        "day": "Mon",
+        "count": 244
+      },
+      {
+        "day": "Tue",
+        "count": 216
+      },
+      {
+        "day": "Wed",
+        "count": 243
+      },
+      {
+        "day": "Thu",
+        "count": 280
+      },
+      {
+        "day": "Fri",
+        "count": 299
+      },
+      {
+        "day": "Sat",
+        "count": 243
+      },
+      {
+        "day": "Sun",
+        "count": 235
+      }
+    ]
+  },
+  "code": {
+    "updatedAt": "2026-09-27T14:19:15.890Z",
+    "reposContributed": 70,
+    "commits": 1442,
+    "languages": [
+      {
+        "name": "TypeScript",
+        "percent": 41
+      },
+      {
+        "name": "JavaScript",
+        "percent": 32.2
+      },
+      {
+        "name": "PHP",
+        "percent": 17.5
+      },
+      {
+        "name": "Blade",
+        "percent": 4.7
+      },
+      {
+        "name": "Twig",
+        "percent": 2.4
+      },
+      {
+        "name": "Python",
+        "percent": 0.7
+      },
+      {
+        "name": "Other",
+        "percent": 1.5
+      }
+    ],
+    "excluded": [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Sass",
+      "Less"
+    ]
+  }
+}
