@@ -50,9 +50,10 @@ jobs:
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Brand colours: the snake is the orange (#F2502A); the cells climb the Hypential navy and slate ramp.
           outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=#FDC448&color_dots=#161b22,#4F3899,#6A4ACB,#8A68EE,#B7A3FC
-            dist/snake-light.svg?color_snake=#C98500&color_dots=#ebedf0,#B4A0F3,#9277EE,#6E4DE2,#4A2AB0
+            dist/snake-dark.svg?palette=github-dark&color_snake=#F2502A&color_dots=#161b22,#2D4358,#64748B,#94A6B8,#D9E2EA
+            dist/snake-light.svg?color_snake=#F2502A&color_dots=#E2E8EF,#CDD6E0,#94A6B8,#64748B,#213343
 
       - name: Publish to the output branch
         working-directory: dist

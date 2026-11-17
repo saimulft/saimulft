@@ -68,7 +68,7 @@ test('svgDoc wraps a body with accessible title, description and reduced-motion 
   assert.match(doc, /<title id="weekly-rhythm-title">Weekly rhythm<\/title>/);
   assert.match(doc, /Mon 1 &amp; Tue 2/);
   assert.match(doc, /prefers-reduced-motion/);
-  assert.match(doc, /fill="#110C1E"/);
+  assert.match(doc, /fill="#213343"/);
 });
 
 test('prefixIds and nestSvg embed third-party SVGs without id collisions', () => {

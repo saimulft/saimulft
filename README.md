@@ -1,54 +1,57 @@
 <!-- Charts below are regenerated daily by .github/workflows/profile-stats.yml -->
 
-<a href="https://developerlook.com">
+<a href="https://www.linkedin.com/in/saimulislamdl">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img alt="Saimul Islam, Founder &amp; CEO at DeveloperLook. I build SaaS products, web apps and AI automation that help businesses run faster." src="assets/hero-light.svg" width="100%">
+    <img alt="Saimul Islam, Forward Deployed Engineer and Solutions Architect. I build software inside customers' businesses and stay until it works. Open to Forward Deployed Engineer and Solutions Architect roles." src="assets/hero-light.svg" width="100%">
   </picture>
 </a>
 
 <p align="center">
-  <a href="https://developerlook.com"><img alt="Website: developerlook.com" src="https://img.shields.io/badge/Website-developerlook.com-673DE6?style=flat-square&labelColor=2B2141"></a>
-  <a href="https://www.linkedin.com/in/saimulislamdl"><img alt="LinkedIn: saimulislamdl" src="https://img.shields.io/badge/LinkedIn-saimulislamdl-673DE6?style=flat-square&labelColor=2B2141"></a>
-  <a href="mailto:saimulft@gmail.com"><img alt="Email: saimulft@gmail.com" src="https://img.shields.io/badge/Email-saimulft%40gmail.com-673DE6?style=flat-square&labelColor=2B2141"></a>
-  <a href="https://www.upwork.com/agencies/developerlook/"><img alt="Upwork: Top Rated Plus" src="https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-673DE6?style=flat-square&labelColor=2B2141"></a>
-  <a href="https://clutch.co/profile/developerlook"><img alt="Clutch: 5-star rated" src="https://img.shields.io/badge/Clutch-5--star%20rated-673DE6?style=flat-square&labelColor=2B2141"></a>
+  <a href="https://www.linkedin.com/in/saimulislamdl"><img alt="LinkedIn: saimulislamdl" src="https://img.shields.io/badge/LinkedIn-saimulislamdl-2D4358?style=flat-square&labelColor=213343"></a>
+  <a href="mailto:saimulft@gmail.com"><img alt="Email: saimulft@gmail.com" src="https://img.shields.io/badge/Email-saimulft%40gmail.com-2D4358?style=flat-square&labelColor=213343"></a>
+  <a href="https://developerlook.com"><img alt="DeveloperLook: developerlook.com" src="https://img.shields.io/badge/DeveloperLook-developerlook.com-2D4358?style=flat-square&labelColor=213343"></a>
 </p>
 
 ## About
 
-I'm the founder and CEO of [DeveloperLook](https://developerlook.com). Since 2018 my team and I have shipped 1,250+ projects for 668+ clients across the US, UK, Canada, Australia and Singapore. I also built [Staffic.io](https://staffic.io), a workforce management SaaS.
+**Open to Forward Deployed Engineer and Solutions Architect roles.** I'm based in Kuala Lumpur (UTC+8) and work remote or on site.
 
-> Most businesses don't have a technology problem. They have an operations problem that the right systems can solve.
+I build software inside customers' businesses and stay until it works. For 9+ years I've built AI, automation and full-stack systems for teams in the US, UK and Australia. I start with the people who do the work, design the solution with them, then ship it to production.
 
-**What I build**
+I founded DeveloperLook in 2018 and lead its engineering team. I also built and own two products end to end: Staffic and Bundlewise.
 
-- SaaS products and MVPs
-- Web apps and internal tools that replace manual work
-- AI integrations and automation: agents, chatbots and workflows
-- Shopify apps and themes, WordPress and WooCommerce plugins
+## Experience
 
-After rebuilding DeveloperLook's own operations with automation and internal tools, my productivity went to 2.5x.
+<a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook, founder and lead since 2018. I lead the team that delivers software inside customers' businesses, from discovery to production. Discovery, solution design, production delivery, team lead. 1,250+ products shipped since 2018, for clients in the US, UK and Australia." src="assets/card-developerlook-light.svg" width="100%"></picture></a>
 
-## What I'm building
+**Founder and lead, [DeveloperLook](https://developerlook.com)** · 2018 to now
+
+- **Customer-facing engineering.** I build AI agents, MCP servers and automation inside customers' operations.
+- **Discovery and solution design.** I scope, design and price systems with customers in the US, UK and Australia.
+- **Production delivery.** My team has shipped 1,250+ products since 2018.
+- **Team.** I hired DeveloperLook's first engineers and lead the team that delivers the work.
+
+## Products I built and own
 
 <p>
-  <a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook: software development agency since 2018. Web and mobile apps, SaaS, e-commerce, AI and automation. 1,250+ projects, 668+ clients, 5-star rated." src="assets/card-developerlook-light.svg" width="49%"></picture></a>
-  <a href="https://staffic.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-staffic-dark.svg"><img alt="Staffic.io: workforce management SaaS with time tracking, screenshots, budgets, payroll and invoicing." src="assets/card-staffic-light.svg" width="49%"></picture></a>
+  <a href="https://staffic.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-staffic-dark.svg"><img alt="Staffic, time tracking SaaS. Trackers for Windows, macOS and Linux feed one web app for timesheets, payroll and invoices. 1,000+ users, 16 modules, 4 platforms." src="assets/card-staffic-light.svg" width="49%"></picture></a>
+  <a href="https://bundlewise.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-bundlewise-dark.svg"><img alt="Bundlewise, AI CRM with native MCP. One CRM for forms, chats and campaign replies, with AI agents working under the same roles. 200+ MCP tools, 17 modules, 10+ inbox channels." src="assets/card-bundlewise-light.svg" width="49%"></picture></a>
 </p>
 
-Browse 100+ projects in the [DeveloperLook portfolio](https://developerlook.com/portfolio).
+- **[Staffic](https://staffic.io)**, time tracking SaaS used by 1,000+ people. I built the Electron tracker with idle detection and offline sync, the web app for timesheets, payroll and invoices, and Staffic AI on Claude with its own MCP server.
+- **[Bundlewise](https://bundlewise.app)**, an AI CRM with native MCP. I built a multi-tenant data model that checks companies, workspaces and roles on every request, and an MCP server with OAuth, so Claude, ChatGPT and Cursor work with live data under the user's role.
 
 ## Tech stack
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Tech stack. Languages: TypeScript, JavaScript, PHP, Python, Dart. Frontend: React, Next.js, Vite, Tailwind CSS. Backend and data: Node.js, Laravel, Supabase, PostgreSQL, MySQL, Prisma, Redis. Commerce and CMS: WordPress, WooCommerce, Shopify. Apps: Electron, Flutter. Cloud and tooling: Cloudflare, Vercel, AWS, Docker, GitHub Actions, Vitest, Playwright. AI: OpenAI, Anthropic Claude, Google Gemini." src="assets/stack-light.svg" width="100%">
+  <img alt="Tech stack. Languages: TypeScript, JavaScript, PHP, Python, Dart. Front end: React, Next.js, Vite, Tailwind CSS. Back end and data: Node.js, Express, Laravel, MongoDB, PostgreSQL, MySQL, Redis, Prisma, Supabase. Realtime and apps: Socket.IO, Electron, Flutter. AI and auth: Claude API, MCP, OpenAI, Google Gemini, OAuth. Cloud and tooling: Cloudflare, Vercel, AWS, Docker, GitHub Actions, Stripe, Vitest, Playwright." src="assets/stack-light.svg" width="100%">
 </picture>
 
 ## GitHub activity
 
-Most of my work lives in private client repositories. These charts are generated from my full activity by a GitHub Action in this repo and refresh daily. They show totals only: no private code, project or client names.
+Most of my work lives in private customer repositories. A GitHub Action in this repo builds these charts from my full activity and refreshes them daily. They show totals only: no private code, project or customer names.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saimulft/saimulft/output/overview-dark.svg">
@@ -57,26 +60,28 @@ Most of my work lives in private client repositories. These charts are generated
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saimulft/saimulft/output/activity-dark.svg">
-  <img alt="Column chart of contributions per month over the last 12 months, with the peak month highlighted." src="https://raw.githubusercontent.com/saimulft/saimulft/output/activity-light.svg" width="100%">
+  <img alt="Column chart of contributions per month over the last 12 months, with the peak month in orange." src="https://raw.githubusercontent.com/saimulft/saimulft/output/activity-light.svg" width="100%">
 </picture>
 
 <p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saimulft/saimulft/output/languages-dark.svg"><img alt="Bar chart of the languages I commit most, by share of code." src="https://raw.githubusercontent.com/saimulft/saimulft/output/languages-light.svg" width="49%"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saimulft/saimulft/output/rhythm-dark.svg"><img alt="Column chart of contributions by weekday over the last 12 months, with the busiest day highlighted." src="https://raw.githubusercontent.com/saimulft/saimulft/output/rhythm-light.svg" width="49%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saimulft/saimulft/output/languages-dark.svg"><img alt="Bar chart of the languages I commit most, by share of code, with the top language in orange." src="https://raw.githubusercontent.com/saimulft/saimulft/output/languages-light.svg" width="49%"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saimulft/saimulft/output/rhythm-dark.svg"><img alt="Column chart of contributions by weekday over the last 12 months, with the busiest day in orange." src="https://raw.githubusercontent.com/saimulft/saimulft/output/rhythm-light.svg" width="49%"></picture>
 </p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saimulft/saimulft/output/snake-dark.svg">
-  <img alt="Animated snake eating the contribution graph." src="https://raw.githubusercontent.com/saimulft/saimulft/output/snake-light.svg" width="100%">
+  <img alt="Animated orange snake eating the contribution graph." src="https://raw.githubusercontent.com/saimulft/saimulft/output/snake-light.svg" width="100%">
 </picture>
 
 <sub><a href="https://github.com/saimulft/saimulft/blob/output/stats.md">View these numbers as tables</a></sub>
 
-## Let's work together
+## Contact
 
-If your business is growing but your operations haven't kept up, that's the conversation I want to have.
+I'm open to Forward Deployed Engineer and Solutions Architect roles, remote or on site. Email is the quickest way to reach me.
 
 <p>
-  <a href="https://developerlook.com/contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-start-dark.svg"><img alt="Start a project" src="assets/btn-start-light.svg" height="48"></picture></a>
   <a href="mailto:saimulft@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img alt="Email me" src="assets/btn-email-light.svg" height="48"></picture></a>
+  <a href="https://www.linkedin.com/in/saimulislamdl"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="48"></picture></a>
 </p>
+
+<sub>Saimul Islam · @saimulislamdl</sub>

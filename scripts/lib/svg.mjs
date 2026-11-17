@@ -1,4 +1,4 @@
-import { FONT_STACK } from './theme.mjs';
+import { FONT_STACK, MONO_STACK } from './theme.mjs';
 
 const ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' };
 const numberFormat = new Intl.NumberFormat('en-US');
@@ -45,6 +45,11 @@ export function textWidth(value, size) {
   return units * size;
 }
 
+// Monospace advance is about 0.6em; `tracking` is letter-spacing in em.
+export function monoWidth(value, size, tracking = 0) {
+  return [...String(value)].length * (0.6 + tracking) * size;
+}
+
 export function truncate(value, maxWidth, size) {
   if (textWidth(value, size) <= maxWidth) return String(value);
   const chars = [...String(value)];
@@ -62,7 +67,7 @@ export function svgDoc({ width, height, title, desc, body, style = '' }) {
   return (
     `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="${id}-title ${id}-desc">` +
     `<title id="${id}-title">${esc(title)}</title><desc id="${id}-desc">${esc(desc)}</desc>` +
-    `<style>text{font-family:${FONT_STACK}}${style}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>` +
+    `<style>text{font-family:${FONT_STACK}}.mono{font-family:${MONO_STACK}}${style}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>` +
     body +
     '</svg>'
   );
