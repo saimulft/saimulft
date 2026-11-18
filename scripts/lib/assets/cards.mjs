@@ -33,9 +33,9 @@ export const PRODUCTS = [
 export const EXPERIENCE = {
   id: 'developerlook',
   name: 'DeveloperLook',
-  kind: 'Experience · Founder and lead · Since 2018',
-  lines: ["I lead the team that delivers software inside", "customers' businesses, from discovery to production."],
-  practices: ['Discovery', 'Solution design', 'Production delivery', 'Team lead'],
+  kind: 'Experience · Forward Deployed Engineer · Since 2025',
+  lines: ["I build software inside customers' businesses,", 'from discovery to production.'],
+  practices: ['Discovery', 'Solution design', 'Production delivery', 'AI agents'],
   fact: { value: '1,250+', label: 'Products shipped since 2018', sub: 'Clients: US, UK, Australia' },
 };
 
@@ -94,7 +94,7 @@ export function renderExperienceCard(theme, card = EXPERIENCE) {
   return svgDoc({
     width,
     height,
-    title: `${card.name}: founder and lead since 2018`,
+    title: `${card.name}: forward deployed engineer since 2025`,
     desc: `${card.lines.join(' ')} ${card.practices.join(', ')}. ${card.fact.value} ${card.fact.label.toLowerCase()}. Clients in the US, UK and Australia.`,
     body,
   });

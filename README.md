@@ -18,15 +18,15 @@
 
 **Open to Forward Deployed Engineer and Solutions Architect roles.** I'm based in Kuala Lumpur (UTC+8) and work remote or on site.
 
-I build software inside customers' businesses and stay until it works. For 9+ years I've built AI, automation and full-stack systems for teams in the US, UK and Australia. I start with the people who do the work, design the solution with them, then ship it to production.
+I build software inside customers' businesses and stay until it works. For 10+ years I've built AI, automation and full-stack systems for teams in the US, UK and Australia. I start with the people who do the work, design the solution with them, then ship it to production.
 
-I've been at DeveloperLook since 2018, first as its Full-Stack Engineer and now as a Forward Deployed Engineer. I architected Staffic there and built MCP servers for products like Sitessa and Bundlewise.
+I've been at DeveloperLook since 2018, first as a full-stack developer, then as senior full-stack developer and lead developer, and now as a forward deployed engineer. I architected Staffic there and built MCP servers for products like Sitessa and Bundlewise.
 
 ## Experience
 
-<a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook, forward deployed engineer since 2018. I build software inside customers' businesses, from discovery to production. Discovery, solution design, production delivery, AI agents. 1,250+ products shipped since 2018, for clients in the US, UK and Australia." src="assets/card-developerlook-light.svg" width="100%"></picture></a>
+<a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook, forward deployed engineer since 2025. I build software inside customers' businesses, from discovery to production. Discovery, solution design, production delivery, AI agents. 1,250+ products shipped since 2018, for clients in the US, UK and Australia." src="assets/card-developerlook-light.svg" width="100%"></picture></a>
 
-**Full-Stack Engineer, then Forward Deployed Engineer, [DeveloperLook](https://developerlook.com)** · 2018 to now
+**Full-Stack Developer, Senior Full-Stack Developer, Lead Developer, then Forward Deployed Engineer, [DeveloperLook](https://developerlook.com)** · 2018 to now
 
 - **Customer-facing engineering.** I build AI agents, MCP servers and automation inside customers' operations.
 - **Discovery and solution design.** I scope, design and price systems with customers in the US, UK and Australia.
