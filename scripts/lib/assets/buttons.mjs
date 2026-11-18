@@ -3,6 +3,7 @@ import { el, svgDoc, text, textWidth } from '../svg.mjs';
 // One main action in orange; the rest are line buttons.
 export const BUTTONS = [
   { id: 'email', label: 'Email me', variant: 'primary', icon: '→' },
+  { id: 'website', label: 'saimulislam.com', variant: 'secondary', icon: '↗' },
   { id: 'linkedin', label: 'LinkedIn', variant: 'secondary', icon: '↗' },
 ];
 

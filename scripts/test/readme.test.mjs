@@ -15,7 +15,7 @@ test('every chart the README loads is produced by the generator or the snake ste
 
 test('every static asset the README loads exists', async () => {
   const referenced = [...README.matchAll(/(?:src|srcset)="(assets\/[\w.-]+)"/g)].map((m) => m[1]);
-  assert.equal(referenced.length, 14);
+  assert.equal(referenced.length, 16);
   for (const path of referenced) await readFile(path);
 });
 

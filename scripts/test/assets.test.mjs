@@ -54,12 +54,12 @@ for (const theme of Object.values(THEMES)) {
   });
 
   test(`buttons (${theme.name}): one orange main action, the rest line buttons`, () => {
-    const [primary, secondary] = BUTTONS.map((b) => renderButton(b, theme));
-    for (const svg of [primary, secondary]) assertWellFormedXml(svg);
+    const [primary, ...rest] = BUTTONS.map((b) => renderButton(b, theme));
+    for (const svg of [primary, ...rest]) assertWellFormedXml(svg);
     assert.ok(primary.includes(`fill="${theme.buttonPrimary}"`));
-    assert.ok(!secondary.includes(theme.buttonPrimary));
+    for (const svg of rest) assert.ok(!svg.includes(theme.buttonPrimary));
     const width = (svg) => Number(svg.match(/width="(\d+)"/)[1]);
-    for (const svg of [primary, secondary]) assert.ok(width(svg) > 100);
+    for (const svg of [primary, ...rest]) assert.ok(width(svg) > 100);
   });
 }
 
@@ -73,7 +73,7 @@ test('renderStack fails loudly when an icon is missing', () => {
 
 test('renderStaticAssets produces every README asset', () => {
   const files = renderStaticAssets({ icons });
-  const expected = ['hero', 'card-developerlook', 'card-staffic', 'card-bundlewise', 'stack', 'btn-email', 'btn-linkedin'].flatMap((n) => [`${n}-dark.svg`, `${n}-light.svg`]).sort();
+  const expected = ['hero', 'card-developerlook', 'card-staffic', 'card-bundlewise', 'stack', 'btn-email', 'btn-website', 'btn-linkedin'].flatMap((n) => [`${n}-dark.svg`, `${n}-light.svg`]).sort();
   assert.deepEqual(Object.keys(files).sort(), expected);
 });
 

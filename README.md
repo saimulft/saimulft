@@ -8,6 +8,7 @@
 </a>
 
 <p align="center">
+  <a href="https://saimulislam.com"><img alt="Website: saimulislam.com" src="https://img.shields.io/badge/Website-saimulislam.com-2D4358?style=flat-square&labelColor=213343"></a>
   <a href="https://www.linkedin.com/in/saimulislamdl"><img alt="LinkedIn: saimulislamdl" src="https://img.shields.io/badge/LinkedIn-saimulislamdl-2D4358?style=flat-square&labelColor=213343"></a>
   <a href="mailto:saimulft@gmail.com"><img alt="Email: saimulft@gmail.com" src="https://img.shields.io/badge/Email-saimulft%40gmail.com-2D4358?style=flat-square&labelColor=213343"></a>
   <a href="https://developerlook.com"><img alt="DeveloperLook: developerlook.com" src="https://img.shields.io/badge/DeveloperLook-developerlook.com-2D4358?style=flat-square&labelColor=213343"></a>
@@ -81,6 +82,7 @@ I'm open to Forward Deployed Engineer and Solutions Architect roles, remote or o
 
 <p>
   <a href="mailto:saimulft@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img alt="Email me" src="assets/btn-email-light.svg" height="48"></picture></a>
+  <a href="https://saimulislam.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-website-dark.svg"><img alt="saimulislam.com" src="assets/btn-website-light.svg" height="48"></picture></a>
   <a href="https://www.linkedin.com/in/saimulislamdl"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" height="48"></picture></a>
 </p>
 
