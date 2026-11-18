@@ -19,20 +19,20 @@
 
 I build software inside customers' businesses and stay until it works. For 9+ years I've built AI, automation and full-stack systems for teams in the US, UK and Australia. I start with the people who do the work, design the solution with them, then ship it to production.
 
-I founded DeveloperLook in 2018 and lead its engineering team. I also built and own two products end to end: Staffic and Bundlewise.
+I've been at DeveloperLook since 2018, first as its Full-Stack Engineer and now as a Forward Deployed Engineer. I architected Staffic there and built MCP servers for products like Sitessa and Bundlewise.
 
 ## Experience
 
-<a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook, founder and lead since 2018. I lead the team that delivers software inside customers' businesses, from discovery to production. Discovery, solution design, production delivery, team lead. 1,250+ products shipped since 2018, for clients in the US, UK and Australia." src="assets/card-developerlook-light.svg" width="100%"></picture></a>
+<a href="https://developerlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-developerlook-dark.svg"><img alt="DeveloperLook, forward deployed engineer since 2018. I build software inside customers' businesses, from discovery to production. Discovery, solution design, production delivery, AI agents. 1,250+ products shipped since 2018, for clients in the US, UK and Australia." src="assets/card-developerlook-light.svg" width="100%"></picture></a>
 
-**Founder and lead, [DeveloperLook](https://developerlook.com)** · 2018 to now
+**Full-Stack Engineer, then Forward Deployed Engineer, [DeveloperLook](https://developerlook.com)** · 2018 to now
 
 - **Customer-facing engineering.** I build AI agents, MCP servers and automation inside customers' operations.
 - **Discovery and solution design.** I scope, design and price systems with customers in the US, UK and Australia.
-- **Production delivery.** My team has shipped 1,250+ products since 2018.
-- **Team.** I hired DeveloperLook's first engineers and lead the team that delivers the work.
+- **Production delivery.** DeveloperLook has shipped 1,250+ products for 668+ clients since 2018.
+- **Product architecture.** I architected Staffic, DeveloperLook's time tracking SaaS, from the desktop tracker to the web app.
 
-## Products I built and own
+## Products I built
 
 <p>
   <a href="https://staffic.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-staffic-dark.svg"><img alt="Staffic, time tracking SaaS. Trackers for Windows, macOS and Linux feed one web app for timesheets, payroll and invoices. 1,000+ users, 16 modules, 4 platforms." src="assets/card-staffic-light.svg" width="49%"></picture></a>
