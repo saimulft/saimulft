@@ -36,11 +36,11 @@ I've been at DeveloperLook since 2018, first as a full-stack developer, then as 
 ## Products I built
 
 <p>
-  <a href="https://staffic.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-staffic-dark.svg"><img alt="Staffic, time tracking SaaS. Trackers for Windows, macOS and Linux feed one web app for timesheets, payroll and invoices. 1,000+ users, 16 modules, 4 platforms." src="assets/card-staffic-light.svg" width="49%"></picture></a>
+  <a href="https://staffic.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-staffic-dark.svg"><img alt="Staffic, time tracking SaaS. Trackers for Windows, macOS and Linux feed one web app for timesheets, payroll and invoices. 10,000+ users, 16 modules, 4 platforms." src="assets/card-staffic-light.svg" width="49%"></picture></a>
   <a href="https://bundlewise.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-bundlewise-dark.svg"><img alt="Bundlewise, AI CRM with native MCP. One CRM for forms, chats and campaign replies, with AI agents working under the same roles. 200+ MCP tools, 17 modules, 10+ inbox channels." src="assets/card-bundlewise-light.svg" width="49%"></picture></a>
 </p>
 
-- **[Staffic](https://staffic.io)**, time tracking SaaS used by 1,000+ people. I built the Electron tracker with idle detection and offline sync, the web app for timesheets, payroll and invoices, and Staffic AI on Claude with its own MCP server.
+- **[Staffic](https://staffic.io)**, time tracking SaaS used by 10,000+ users. I built the Electron tracker with idle detection and offline sync, the web app for timesheets, payroll and invoices, and Staffic AI on Claude with its own MCP server.
 - **[Bundlewise](https://bundlewise.app)**, an AI CRM with native MCP. I built a multi-tenant data model that checks companies, workspaces and roles on every request, and an MCP server with OAuth, so Claude, ChatGPT and Cursor work with live data under the user's role.
 
 ## Tech stack

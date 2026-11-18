@@ -10,7 +10,7 @@ export const PRODUCTS = [
     kind: 'Product · Time tracking SaaS',
     lines: ['Trackers for Windows, macOS and Linux feed one', 'web app for timesheets, payroll and invoices.'],
     facts: [
-      { value: '1,000+', label: 'Users', lit: true },
+      { value: '10,000+', label: 'Users', lit: true },
       { value: '16', label: 'Modules' },
       { value: '4', label: 'Platforms' },
     ],
@@ -51,12 +51,16 @@ export function renderProductCard(product, theme) {
     eyebrow(28, 44, product.kind, theme) +
     text(28, 84, product.name, { size: 26, weight: 600, fill: theme.text, extra: { 'letter-spacing': -0.4 } }) +
     product.lines.map((line, i) => text(28, 114 + i * 21, line, { size: 14, fill: theme.textSecondary })).join('');
+  const factWidths = product.facts.map((f) => Math.max(numeralWidth(f.value, 48), labelWidth(f.label, 10)));
+  const spare = width - 56 - factWidths.reduce((sum, w) => sum + w, 0);
+  // 26px between facts, tightened only when a wide figure (like 10,000+) would push the row past the 28px side padding.
+  const gap = Math.min(26, spare / Math.max(1, product.facts.length - 1));
   let x = 28;
-  for (const fact of product.facts) {
+  product.facts.forEach((fact, i) => {
     body += numeral(x, 206, fact.value, { size: 48, lit: fact.lit, ground: theme.surface, theme });
     body += label(x + 1, 230, fact.label, { size: 10, fill: theme.textSecondary });
-    x += Math.max(numeralWidth(fact.value, 48), labelWidth(fact.label, 10)) + 26;
-  }
+    x += factWidths[i] + gap;
+  });
   body += text(width - 28, 84, `${product.link} ↗`, { size: 13, weight: 600, fill: theme.link, anchor: 'end' });
   const lit = product.facts.find((f) => f.lit);
   return svgDoc({
